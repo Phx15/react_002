@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .card.excluded {
+    filter: grayscale(100%);
+    opacity: 0.5;
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
